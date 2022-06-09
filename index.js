@@ -17,11 +17,13 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+const generateReadMe = ({title}) => {
+    `Title is ${title}`
+}
 
-// TODO: Create a function to initialize app
-function init() {
-    inquirer.prompt(
+
+const promptUser = () => {
+    return inquirer.prompt(
         [
             {
                 type: "input",
@@ -71,6 +73,14 @@ function init() {
             }
         ]
     )
+}
+
+// TODO: Create a function to initialize app
+init = () => {
+    promptUser()
+        .then((answers) => fs.writeFileSync('readme.txt', generateReadMe(answers)))
+        .then(() => console.log('Successfully wrote to index.html'))
+        .catch((err) => console.error(err));
 }
 
 // Function call to initialize app
