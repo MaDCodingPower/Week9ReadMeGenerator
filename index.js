@@ -5,7 +5,7 @@ const inquirer = require("inquirer")
 const fs = require("fs")
 // TODO: Create an array of questions for user input
 const questions = [
-    "What is your project Title?",
+    "What is your name of your Project?",
     "Please provide a brief description of your application",
     "Please provide brief instructions on installing your application",
     "Please provide brief instructions on how to use your application",
@@ -17,7 +17,7 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-const generateReadMe = ({title}) => 
+const generateReadMe = ({title, description, installation, usage, collarborators, test, license, github, email}) => 
     `Title is ${title}`
 
 
