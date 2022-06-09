@@ -17,9 +17,9 @@ const questions = [
 ];
 
 // TODO: Create a function to write README file
-const generateReadMe = ({title}) => {
+const generateReadMe = ({title}) => 
     `Title is ${title}`
-}
+
 
 
 const promptUser = () => {
@@ -62,12 +62,12 @@ const promptUser = () => {
                 choices: ["BSD", "MIT", "GPL"],
             },
             {
-                type: "list",
+                type: "input",
                 message: questions[7],
                 name: "github"
             },
             {
-                type: "list",
+                type: "input",
                 message: questions[8],
                 name: "email"
             }
@@ -78,7 +78,7 @@ const promptUser = () => {
 // TODO: Create a function to initialize app
 init = () => {
     promptUser()
-        .then((answers) => fs.writeFileSync('readme.txt', generateReadMe(answers)))
+        .then((answers) => fs.writeFileSync('README.md', generateReadMe(answers)))
         .then(() => console.log('Successfully wrote to index.html'))
         .catch((err) => console.error(err));
 }
