@@ -1,11 +1,11 @@
-#poopoo
+# Poopoo
 
-[![Licensed by: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![Licensed by: Apache](https://img.shields.io/badge/License-Apache_2.0-green.svg)(https://opensource.org/licenses/Apache-2.0)]
 
 
 ## Description
 
->a
+>no
 
 
 ## Table of Contents:
@@ -33,7 +33,7 @@
 
 ## Licensing
 
->[![Licensed by: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) Licensed by [MIT](https://opensource.org/licenses/MIT)
+>[![Licensed by: Apache](https://img.shields.io/badge/License-Apache_2.0-green.svg)(https://opensource.org/licenses/Apache-2.0)] Licensed by [Apache](https://opensource.org/licenses/Apache-2.0)
 
 ## Contributors
 
@@ -47,4 +47,4 @@
 
 >[Github Profile](https://github.com/madcodingpower)
 >
->Reach me at: no
+>Reach me at: asf

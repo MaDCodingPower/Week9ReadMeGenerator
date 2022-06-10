@@ -53,7 +53,7 @@ const promptUser = () => {
                 type: "list",
                 message: questions[6],
                 name: "license",
-                choices: ["BSD", "MIT", "GPL"],
+                choices: ["Apache", "MIT", "GPL"],
             },
             {
                 type: "input",
