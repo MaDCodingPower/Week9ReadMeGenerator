@@ -51,7 +51,7 @@ ${renderLicenseBadge(data.license)}
 >
 >-[Licensing](#licensing)
 >
->-[Contributors](#contributors)
+>-[Contribution](#contribution)
 >
 >-[Testing](#testing)
 >
@@ -70,9 +70,9 @@ ${renderLicenseBadge(data.license)}
 
 >${renderLicenseSection(data.license)}
 
-## Contributors
+## Contribution
 
->${data.collaborators}
+>${data.contribution}
 
 ## Testing
 
