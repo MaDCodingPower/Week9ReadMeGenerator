@@ -9,7 +9,7 @@ const questions = [
     "Please provide a brief description of your application",
     "Please provide brief instructions on installing your application",
     "Please provide brief instructions on how to use your application",
-    "Please list the github profiles of all your collaborators",
+    "Please provide a brief explanation on how to contribute to this project",
     "Please provide a brief description on how to test you application",
     "Which of these licenses would you like your application to be under?",
     "What is your Github Username?",
@@ -42,7 +42,7 @@ const promptUser = () => {
             {
                 type: "input",
                 message: questions[4],
-                name: "collaborators"
+                name: "contribution"
             },
             {
                 type: "input",

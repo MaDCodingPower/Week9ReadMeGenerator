@@ -1,11 +1,11 @@
-# s
+# Poopoo
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: GPL v3](https://img.shields.io/badge/License-GNU%20GPL-green)](https://www.gnu.org/licenses/gpl-3.0)
 
 
 ## Description
 
->s
+>Description
 
 
 ## Table of Contents:
@@ -25,26 +25,26 @@
 
 ## Installation
 
->s
+>install
 
 ## Usage
 
->s
+>use it
 
 ## Licensing
 
->[![License](https://img.shields.io/badge/License-Apache_2.0-green.svg)](https://opensource.org/licenses/Apache-2.0) Licensed by [Apache](https://opensource.org/licenses/Apache-2.0)
+>[![License: GPL v3](https://img.shields.io/badge/License-GNU%20GPL-green)](https://www.gnu.org/licenses/gpl-3.0) Licensed by [GPL](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Contributors
 
->s
+>undefined
 
 ## Testing
 
->s
+>test
 
 ## Questions
 
->[Github Profile](https://github.com/a)
+>[Github Profile](https://github.com/madcodingpower)
 >
->Reach me at: a
+>Reach me at: matthewdavis1372@yahoo.com
