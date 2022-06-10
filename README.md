@@ -1,7 +1,10 @@
-#**Poopoo**
+#PooPoo
+
 ----------------------------
+
 it workd
-##**Table of Contents:**
+
+##Table of Contents:
 -[Installation](#installation)
 -[Usage](#usage)
 -[Licensing](#licensing)
