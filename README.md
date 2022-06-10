@@ -1,38 +1,59 @@
-# PooPoo
+#ReadMe Generator
 
-----------------------------
+function renderLicenseBadge(license) {
+  if (license == "MIT"){
+    return `[![Licensed by: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)`;
+  } else if (license == 'GPL'){
+    return `[![Licensed by: GPL](https://img.shields.io/badge/License-GNU%20GPL-green)(https://www.gnu.org/licenses/gpl-3.0)]`;
+  } else if (license == "Apache"){
+    return `[![Licensed by: Apache](https://img.shields.io/badge/License-Apache_2.0-green.svg)(https://opensource.org/licenses/Apache-2.0)]`
+  } else {
+    return ""
+  }
+}
 
-it workd
+
+## Description
+
+it creates a read me file
+
 
 ## Table of Contents:
--[Installation](#installation)
--[Usage](#usage)
--[Licensing](#licensing)
--[Contributors](#contributors)
--[Testing](#testing)
--[Questions](#questions)
 
-## **Installation**
+>-[Installation](#installation)
 
-install it
+>-[Usage](#usage)
 
-## **Usage**
+>-[Licensing](#licensing)
 
-use it
+>-[Contributors](#contributors)
 
-## **Licensing**
+>-[Testing](#testing)
 
-[![Licensed by: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) Licensed by [MIT](https://opensource.org/licenses/MIT)
+>-[Questions](#questions)
 
-## **Contributors**
 
-me
+## Installation
 
-## **Testing**
+>install it through ipm i command in termial
 
-test it
+## Usage
 
-## **Questions**
+>type node "./index.js" into your command line
 
-[Github Profile](https://github.com/MaDCodingPower)
-Reach me at: me @ me
+## Licensing
+
+> undefined
+
+## Contributors
+
+>just me
+
+## Testing
+
+>i dont test anything ever
+
+## Questions
+
+>[Github Profile](https://github.com/MaDCodingPower)
+>Reach me at: me
