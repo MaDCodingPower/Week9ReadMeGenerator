@@ -16,12 +16,6 @@ const questions = [
     "Where can someone contact you through email for further questions?",
 ];
 
-// TODO: Create a function to write README file
-const generateReadMe = ({title, description, installation, usage, collarborators, test, license, github, email}) => 
-    `Title is ${title}`
-
-
-
 const promptUser = () => {
     return inquirer.prompt(
         [
@@ -74,12 +68,27 @@ const promptUser = () => {
         ]
     )
 }
+// TODO: Create a function to write README file
+const generateReadMe = (answers) => {
+    fs.writeFile("README.md", generateMarkdown(answers), (err) => {
+        if (err){
+            console.error(err);
+        } else {
+            console.log("README.md generated!")
+        }
+    })
+}
+
+
+
+
+
 
 // TODO: Create a function to initialize app
 init = () => {
     promptUser()
-        .then((answers) => fs.writeFileSync('README.md', generateReadMe(answers)))
-        .then(() => console.log('Successfully wrote to index.html'))
+        .then((answers) => generateReadMe(answers))
+        .then(() => console.log('Successfully wrote README.md'))
         .catch((err) => console.error(err));
 }
 
