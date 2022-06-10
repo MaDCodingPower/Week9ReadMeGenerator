@@ -1,10 +1,10 @@
-#PooPoo
+# PooPoo
 
 ----------------------------
 
 it workd
 
-##Table of Contents:
+## Table of Contents:
 -[Installation](#installation)
 -[Usage](#usage)
 -[Licensing](#licensing)
@@ -12,27 +12,27 @@ it workd
 -[Testing](#testing)
 -[Questions](#questions)
 
-##**Installation**
+## **Installation**
 
 install it
 
-##**Usage**
+## **Usage**
 
 use it
 
-##**Licensing**
+## **Licensing**
 
 [![Licensed by: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) Licensed by [MIT](https://opensource.org/licenses/MIT)
 
-##**Contributors**
+## **Contributors**
 
 me
 
-##**Testing**
+## **Testing**
 
 test it
 
-##**Questions**
+## **Questions**
 
 [Github Profile](https://github.com/MaDCodingPower)
 Reach me at: me @ me
