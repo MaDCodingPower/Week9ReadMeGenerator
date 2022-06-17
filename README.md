@@ -1,4 +1,4 @@
-# Poopoo
+# README Generator
 
 [![License: GPL v3](https://img.shields.io/badge/License-GNU%20GPL-green)](https://www.gnu.org/licenses/gpl-3.0)
 
